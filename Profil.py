@@ -1,13 +1,14 @@
 import pandas as pd
 import streamlit as st
-# import plot
-# import plotly.express as px
+import plotly.io as pio
+pio.templates
+import plotly.express as px
 import numpy as np
 from sklearn.utils.validation import joblib
 
 # intial template
-# px.defaults.template = "plotly_dark"
-# px.defaults.color_continuous_scale = "reds"
+px.defaults.template = "plotly_dark"
+px.defaults.color_continuous_scale = "reds"
 
 # create content
 st.markdown("#Profil")
