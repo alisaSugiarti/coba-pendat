@@ -1,7 +1,5 @@
-import pandas as pd
 import streamlit as st
-import plotly.io as pio
-pio.templates
+import pandas as pd
 import plotly.express as px
 import numpy as np
 from sklearn.utils.validation import joblib
